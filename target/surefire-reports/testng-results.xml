@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49778" started-at="2022-03-04T20:42:30 IST" finished-at="2022-03-04T20:43:19 IST">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="32226" started-at="2022-03-04T20:42:30 IST" finished-at="2022-03-04T20:43:02 IST">
+      <class name="testCases.LandingPage">
+        <test-method status="PASS" signature="driverInitialize()[pri:0, instance:testCases.LandingPage@2ea227af]" name="driverInitialize" is-config="true" duration-ms="25418" started-at="2022-03-04T20:42:30 IST" finished-at="2022-03-04T20:42:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialize -->
+        <test-method status="FAIL" signature="verifyText()[pri:1, instance:testCases.LandingPage@2ea227af]" name="verifyText" duration-ms="70" started-at="2022-03-04T20:42:55 IST" finished-at="2022-03-04T20:42:55 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [cat] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [cat] but found [FEATURED COURSES]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at testCases.LandingPage.verifyText(LandingPage.java:58)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyText -->
+        <test-method status="PASS" signature="clickoncourses()[pri:2, instance:testCases.LandingPage@2ea227af]" name="clickoncourses" duration-ms="6006" started-at="2022-03-04T20:42:56 IST" finished-at="2022-03-04T20:43:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickoncourses -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.LandingPage@2ea227af]" name="tearDown" is-config="true" duration-ms="279" started-at="2022-03-04T20:43:02 IST" finished-at="2022-03-04T20:43:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.LandingPage -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="9601" started-at="2022-03-04T20:43:03 IST" finished-at="2022-03-04T20:43:12 IST">
+      <class name="testCases.LoginPage">
+        <test-method status="PASS" signature="driverInitialize()[pri:0, instance:testCases.LoginPage@418e7838]" name="driverInitialize" is-config="true" duration-ms="3687" started-at="2022-03-04T20:43:03 IST" finished-at="2022-03-04T20:43:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialize -->
+        <test-method status="PASS" signature="checklogin(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginPage@418e7838]" name="checklogin" duration-ms="1118" started-at="2022-03-04T20:43:06 IST" data-provider="getData" finished-at="2022-03-04T20:43:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[athira]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[athira364@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checklogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.LoginPage@418e7838]" name="tearDown" is-config="true" duration-ms="65" started-at="2022-03-04T20:43:07 IST" finished-at="2022-03-04T20:43:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="driverInitialize()[pri:0, instance:testCases.LoginPage@418e7838]" name="driverInitialize" is-config="true" duration-ms="3565" started-at="2022-03-04T20:43:07 IST" finished-at="2022-03-04T20:43:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialize -->
+        <test-method status="PASS" signature="checklogin(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginPage@418e7838]" name="checklogin" duration-ms="1077" started-at="2022-03-04T20:43:11 IST" data-provider="getData" finished-at="2022-03-04T20:43:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anju]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[anjana@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checklogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.LoginPage@418e7838]" name="tearDown" is-config="true" duration-ms="81" started-at="2022-03-04T20:43:12 IST" finished-at="2022-03-04T20:43:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.LoginPage -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="7192" started-at="2022-03-04T20:43:12 IST" finished-at="2022-03-04T20:43:19 IST">
+      <class name="testCases.CoursesPage">
+        <test-method status="PASS" signature="driverInitilization()[pri:0, instance:testCases.CoursesPage@703580bf]" name="driverInitilization" is-config="true" duration-ms="6763" started-at="2022-03-04T20:43:12 IST" finished-at="2022-03-04T20:43:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitilization -->
+        <test-method status="PASS" signature="clickOnRadioButton()[pri:0, instance:testCases.CoursesPage@703580bf]" name="clickOnRadioButton" duration-ms="305" started-at="2022-03-04T20:43:19 IST" finished-at="2022-03-04T20:43:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnRadioButton -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:testCases.CoursesPage@703580bf]" name="TearDown" is-config="true" duration-ms="123" started-at="2022-03-04T20:43:19 IST" finished-at="2022-03-04T20:43:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testCases.CoursesPage -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
